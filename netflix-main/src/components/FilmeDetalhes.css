@@ -8,8 +8,6 @@
   background-color: black;
 }
 
-.navbar{
-  display: flex;
-  flex-direction: row;
-  padding: 20px;
+.topo-navegar{
+  width: 200px;
 }

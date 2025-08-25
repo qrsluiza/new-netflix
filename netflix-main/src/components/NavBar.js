@@ -10,17 +10,15 @@ function NavBar(){
     return (
         <div className='topo'>
         <div className='nav-bar'>
-            
-            <div className='Topo1'>
-                <img src={logo} className='logotipo'/>
-                <a className='link'> Navegar </a>
-            </div>
+            <img src={logo} className='logotipo'/>
+            <a className='link'> Início </a>
+            <a className='link2'> Séries</a>
+            <a className='link2'> Filmes</a>
+            <a className='link2'> Bombando</a>
+            <a className='link2'> Minha lista</a>
+            <a className='link2'> Navegar por idiomas</a>
 
-            <div className='Topo1'>
-                <a className='link2'> Buscar</a>
-            </div>
-
-            <Link to={'/account'} className='nav-bar'>
+            <Link to={'/account'} className='nav-bar2'>
                 <CgProfile color ="ffffff"/>
             <span className='link2'>Conta</span>
             </Link>

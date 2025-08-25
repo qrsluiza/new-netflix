@@ -1,0 +1,38 @@
+.nav-all{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-detalhes{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+    z-index: 1;
+
+    border: solid 1px blue;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+
+}
+
+.logo-netflix{
+        width: 100px;
+        padding-right: 30px;
+}
+
+.link-detalhes{
+    color: #fc0000;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.seta-netflix{
+    width: 10px;
+
+    padding-right: 30px;
+}
+
+
