@@ -1,0 +1,114 @@
+.Menu-inferior {
+   display: flex;
+  flex-direction: row;
+  gap: 20px;
+
+  padding: 10px;
+  box-sizing: border-box;
+
+}
+
+
+.card-comentario{
+ background-color: rgb(7, 7, 7);
+  border-radius: 10px;
+  border: solid 1px rgb(32, 32, 32);
+
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+padding: 10px;
+
+  width: 360px;
+  height: 500px;
+
+
+}
+
+.icone-coment{
+  border-radius: 50%;
+  object-fit: cover;
+
+  width: 50px;
+  height: 50px; 
+
+  padding: 10px;
+} 
+
+.textos-comentarios{
+  display: flex;
+  flex-direction: column;
+
+
+  gap: 10px;
+}
+
+.coment-text1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: medium;
+  text-shadow: 1px 1px black;
+
+  padding-top: 15px;
+  color: rgba(255, 255, 255, 0.863)
+}
+
+.coment-text{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+  text-shadow: 1px 1px black;
+
+  color: rgb(146, 145, 145);
+}
+
+.card-avaliacao{
+  display: flex;
+  flex-direction: row;
+ 
+
+color: rgb(146, 145, 145);
+}
+
+.icone-star{
+  width: 15px;
+  height: 15px;
+}
+
+.icone-tag{
+  width: 15px;
+  height: 15px;
+
+  padding-left: 20px;
+  color: gray;
+}
+
+.card-interacao{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  justify-content: space-around;
+  padding-right: 40px;
+  color: gray;
+}
+
+.interacao-text{
+font-size: 15px;
+font-weight: bold;
+color: gray;
+}
+
+.icone-like{
+  width: 20px;
+  height: 20px;
+}
+
+.card-interacao2{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding-left: 25px;
+
+  color: gray;
+}

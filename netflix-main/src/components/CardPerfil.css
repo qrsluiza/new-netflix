@@ -1,0 +1,33 @@
+.card-perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+
+    text-decoration: none;
+    width: fit-content;
+}
+
+.card-perfil:hover > .foto{
+    outline: solid 4px #ffffff;
+    outline-offset: -4px;
+    box-sizing: border-box;
+}
+
+.foto{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+
+    border-radius: 4px;
+}
+
+.nome{
+    color: #999999;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card-perfil:hover > .nome{
+    color: #ffffff;
+}

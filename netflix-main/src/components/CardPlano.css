@@ -1,0 +1,219 @@
+.card-conta{
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-right: 800px;
+
+    width: 200px;
+   gap: 5px;
+}
+
+.assinatura{
+    width: 150px;
+}
+
+.negrito-plano{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.texto-plano{
+    font-size: 12px;
+}
+
+.Card-1{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 8px;
+
+    border: 1px solid rgba(221, 218, 218, 0.466);
+    border-radius: 5px;
+    height: 150px;
+    width: 520px;
+
+    margin-top: 5px;
+   
+}
+
+.cartao{
+    width: 20px;
+}
+
+.num-cartao{
+    font-size: 12px;
+    /* border-bottom: solid 2px green; */
+}
+
+.negrito-ass{
+    font-weight: bold;
+    font-size: 12px;
+    
+    color: black;
+}
+
+.card-one{
+    padding: 10px;
+    gap: 8px;
+    /* border-bottom: solid 2px green; */
+}
+
+.texto-negrito{
+    
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.texto-normal{
+    font-size: 15px;
+}
+
+
+.Card-atalho{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.texto-atalho{
+    font-size: 15px;
+}
+
+.Card-2{
+display: flex;
+flex-direction: column;
+gap:10px;
+
+height: 460px;
+width: 542px;
+
+
+
+border: 1px solid rgba(221, 218, 218, 0.466);
+border-radius: 5px;
+font-weight: bold;
+}
+
+.Q1{
+    display: flex;
+    justify-content: space-between; 
+    width: 520px;
+    padding: 10px;
+    margin-top: 5px;
+    
+    margin-left: 5px;
+
+
+    border-bottom: solid 1px rgba(190, 190, 190, 0.226);
+}
+
+.infoN{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+}
+
+.Q1-texto{
+    font-size: 11px;
+    color: gray;
+}
+
+
+.icon-atalho{
+    width: 20px;
+    height: 20px;
+}
+
+.seta-atalho{
+    width: 20px;
+    height: 20px;
+}
+
+.seta-atalho2{
+    width: 20px;
+    height: 20px;
+
+
+}
+
+.extra{
+    display: flex;
+    flex-direction: column;
+}
+
+.texto-novo{
+    background-color: rgb(144, 189, 228);
+    color:black;
+
+    border-radius: 5px;
+    width: 25px;
+    height: 10px;
+
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+
+    font-size: 12px;
+}
+
+.inicio{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.inicio2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 5px;
+    padding: 10px;
+}
+
+.Card-3{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+gap:10px;
+padding: 10px;
+
+height: 95px;
+width: 523px;
+
+/* border: 1px solid rgba(221, 218, 218, 0.466); */
+
+border: 1px solid rgba(221, 218, 218, 0.466);
+border-radius: 3px;
+}
+
+.card3-texto1{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.card3-texto2{
+    font-size: 13px;
+    color: gray;
+}
+
+
+.card3-fotos{
+display: flex;
+align-items: center;
+
+width: 100px;
+}
+
+.icon-card3{
+    width: 30px;
+    border-radius:50px;
+    margin-left: -5px;
+}

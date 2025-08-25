@@ -1,0 +1,51 @@
+.tela2{
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+
+    
+}
+
+.telaaa{
+    display: flex;
+    flex-direction: row;
+
+
+
+}
+
+.Aba-lateral{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.centro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    
+    margin-top: 30px;
+}
+
+.aba-central1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 250px;
+    margin-top: 30px;
+
+}
+
+.aba-central2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 250px;
+    width: 400px;
+    height: 250px;
+}
+

@@ -1,0 +1,43 @@
+.menu-lateral{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 30px;
+    gap: 10px;
+    padding-left: 5px;
+
+    gap: 15px;
+    
+}
+
+.icon{
+    color: #000000;
+    width: 25px;
+    height: 25px;
+}
+
+.menu:hover{
+    background-color: rgb(196, 194, 194);
+}
+
+.negrito{
+    font-weight: bold;
+}
+
+
+.menu{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    padding: 10px;
+    gap: 12px;
+
+    font-size: 15px;
+    color: #000000;
+}
+
+.menu-topo1{
+    display: flex;
+    gap: 20px;
+}
+

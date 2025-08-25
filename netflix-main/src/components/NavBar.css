@@ -1,0 +1,72 @@
+.topo{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.nav-bar{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    gap: 24px;
+   
+    width: 100%;
+
+    border: solid 1px blue;
+}
+
+.Topo1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logotipo{
+    width: 100px;
+}
+
+.link{
+    color: #ff0a0a;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.link:hover{
+    color: #999999;
+}
+
+.link2{
+    color: #fffafa;
+    font-size: 15px;
+}
+
+.Perfil{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+    color: #fffefe;
+    font-size: 15px;
+}
+
+.Icone{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+
+.nav-bar2{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+   width: 1450px;
+    
+
+    gap: 8px;
+    
+
+}

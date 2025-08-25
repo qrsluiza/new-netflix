@@ -1,0 +1,33 @@
+.logotipo{
+width: 150px;
+}
+
+.Nav-Config{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+    border-bottom: 2px rgba(187, 187, 187, 0.26) solid;
+    padding-top: 10px;
+    gap: 10px;
+}
+
+.icone-conta{
+    width: 30px;
+    height: 30px;
+
+    border-radius: 2px;
+}
+
+seta-icone{
+    color: black;
+}
+
+.nav-config2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding-top: 10px;
+    gap: 10px;
+}

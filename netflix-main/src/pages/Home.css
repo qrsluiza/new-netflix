@@ -1,0 +1,54 @@
+.tela{
+    background-image: url(../img/home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    /* position: fixed; */
+    
+}
+
+.geral{
+    margin-top: 100px;
+    margin-left: 80px;
+
+    gap: 20px;
+    padding-right: 70px;
+}
+
+
+
+.Botoes{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.titulo{
+    margin-top: 370px;
+}
+
+.Lateral{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+
+    padding-right: 70px;
+    gap: 20px;
+}
+
+.separador{
+    color: white;
+     padding-bottom: 12px; 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+
+   font-size: 32px;
+}
+
+.Carrossel{
+    display: flex;
+    flex-direction: column;
+}

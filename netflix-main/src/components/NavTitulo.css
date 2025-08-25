@@ -1,0 +1,17 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Korataki&display=swap');  */
+
+
+.Nav-Titulo {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    color: black; /* cor do texto */
+    -webkit-text-stroke: 2px #00cfff; /* borda azul */
+}
+
+
+
+
+
