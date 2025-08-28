@@ -3,7 +3,7 @@ import thumb from '../img/thumb2.webp'
 import icone from '../img/perfil.png'
 import mais from '../img/mais2.png'
 import myname from '../img/myname.png'
-
+import { FaPlay } from "react-icons/fa";
 
 function Menusuperior(){
     return (
@@ -44,14 +44,15 @@ function Menusuperior(){
                 <div className='card-info'>
                   <img className='icone-ator' src={icone} alt="icone" />
                   <span> Han So-hee, Park Hee-soon, Ahn Bo-hyun, Kim Sang-ho, Lee Hak-joo, Chang Ryul, Yoon Kyung-ho, Baek Joo-hee, Moon Sang-min. </span>
-
                </div>
 
-               <div className='card-lista'>
-                 <img className='icone-mais' src={mais} alt="mais" />
-                 <span>MINHA LISTA</span>
-             
-               </div>
+              <div className='Buttom-Assistir'>
+                <span className='estilo-botao'>
+                <FaPlay color ="000000" className='Icone'/>
+                  Assistir
+                 </span>
+              </div>
+            
 
                <div className='card-menu'>
     
